@@ -81,6 +81,12 @@ export default function Container(props) {
         </button>
         <div>
           <Link
+            href="/blog"
+            className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
+          >
+            Blog
+          </Link>
+          <Link
             href="/about"
             className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
           >
