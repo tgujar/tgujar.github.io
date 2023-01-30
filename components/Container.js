@@ -17,8 +17,8 @@ export default function Container(props) {
   const router = useRouter();
   const meta = {
     title: "Tanmay Gujar.",
-    description: `MS CS student at UC San Deigo.`,
-    image: "/static/images/avatar.png",
+    description: `MS CS student at UC San Diego.`,
+    image: "/static/images/avatar.jpg",
     type: "website",
     ...customMeta,
   };
