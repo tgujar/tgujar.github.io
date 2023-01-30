@@ -2,7 +2,7 @@ import Image from "next/image";
 import { parseISO, format } from "date-fns";
 
 import Container from "components/Container";
-import profilePic from "../public/static/images/avatar.jpg";
+import profilePic from "@/public/static/images/avatar.jpg";
 const host = process.env["NEXT_PUBLIC_HOST"] || null;
 
 export default function BlogLayout({ children, frontmatter }) {
