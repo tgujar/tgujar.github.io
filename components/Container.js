@@ -87,11 +87,17 @@ export default function Container(props) {
             Blog
           </Link>
           <Link
+            href="/resume"
+            className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
+          >
+            Resume
+          </Link>
+          {/* <Link
             href="/projects"
             className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
           >
-            Resume+Projects
-          </Link>
+            Timeline
+          </Link> */}
           <Link
             href="/about"
             className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
