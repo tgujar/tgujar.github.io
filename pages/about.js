@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import profilePic from "@/public/static/images/avatar.jpg";
 import Container from "@/components/Container";

@@ -1,8 +1,8 @@
 import { Suspense, useState } from "react";
 
-import Container from "components/Container";
+import Container from "@/components/Container";
 import { getSortedArticles } from "@/lib/mdx";
-import ArticleCard from "components/ArticleCard";
+import ArticleCard from "@/components/ArticleCard";
 
 export default function Blog({ posts }) {
   const [searchValue, setSearchValue] = useState("");

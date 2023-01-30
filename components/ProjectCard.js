@@ -1,4 +1,3 @@
-import profilePic from "@/public/static/images/avatar.jpg";
 import Image from "next/image";
 
 export default function ProjectCard({ img, title, highlights, href }) {

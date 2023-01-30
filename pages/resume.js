@@ -1,5 +1,3 @@
-import Image from "next/image";
-import profilePic from "../public/static/images/avatar.jpg";
 import Container from "@/components/Container";
 import ExternalLink from "@/components/ExternalLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
