@@ -3,8 +3,9 @@ import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
-
+import { config, dom } from "@fortawesome/fontawesome-svg-core";
 import Footer from "@/components/Footer";
+config.autoAddCss = false;
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
@@ -25,6 +26,7 @@ export default function Container(props) {
   return (
     <div className="bg-white dark:bg-black min-h-screen">
       <Head>
+        <style>{dom.css()}</style>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />

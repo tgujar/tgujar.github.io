@@ -1,8 +1,6 @@
 import Container from "@/components/Container";
 import ExternalLink from "@/components/ExternalLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
 
 import {
   faLinkedinIn,
