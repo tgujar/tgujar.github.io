@@ -159,7 +159,7 @@ export default function Resume() {
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
                 github.com/tgujar
               </ExternalLink>
-              <ExternalLink href="https://github.com/tgujar">
+              <ExternalLink href="https://www.linkedin.com/in/tanmay-gujar-3014b3ba/">
                 <FontAwesomeIcon icon={faLinkedinIn} className="mr-1" />
                 linkedin.com/in/tanmay-gujar-3014b3ba
               </ExternalLink>

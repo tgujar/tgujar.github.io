@@ -92,7 +92,7 @@ export default function Container(props) {
             href="/resume"
             className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
           >
-            Resume
+            Projects
           </Link>
           {/* <Link
             href="/projects"
