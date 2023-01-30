@@ -1,5 +1,4 @@
 import Image from "next/image";
-import profilePic from "@/public/static/images/avatar.jpg";
 import Container from "@/components/Container";
 
 export default function About() {
@@ -30,7 +29,7 @@ export default function About() {
               alt="Tanmay Gujar"
               height={320}
               width={320}
-              src={profilePic}
+              src="/static/images/avatar.jpg"
               sizes="30vw"
               priority
               className="rounded-lg"
