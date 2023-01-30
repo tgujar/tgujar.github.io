@@ -17,7 +17,7 @@ export default function Container(props) {
   const meta = {
     title: "Tanmay Gujar.",
     description: `MS CS student at UC San Deigo.`,
-    image: "./static/images/avatar.png",
+    image: "https://tgujar.me/static/images/avatar.png",
     type: "website",
     ...customMeta,
   };
