@@ -90,7 +90,7 @@ export default function Resume() {
                 img="/static/images/ucsd.jpg"
               />
               <WorkCard
-                title="Member of Techinical Staff, Intern"
+                title="Member of Technical Staff, Intern"
                 company="VMware, Inc."
                 highlights={experience.vmware}
                 href="https://www.vmware.com/"
@@ -118,7 +118,7 @@ export default function Resume() {
                 img="/static/images/live_migrate.jpg"
               />
               <ProjectCard
-                title="sysperf - OS Perfromance Measurement"
+                title="sysperf - OS Performance Measurement"
                 highlights={projects.sysperf}
                 href="https://github.com/tgujar/sys-perf"
               />
