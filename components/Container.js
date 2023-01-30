@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme("dark");
 
   useEffect(() => setMounted(true), []);
 
