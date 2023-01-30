@@ -15,7 +15,7 @@ export default function WorkCard({ img, company, title, highlights, href }) {
         <h4 className="w-full text-lg font-medium text-gray-900 md:text-xl dark:text-gray-100">
           {href ? (
             <a
-              className="text-white hover:text-gray-500 transition no-underline cursor-pointer"
+              className="text-gray-500 hover:text-gray-600 transition no-underline cursor-pointer"
               target="_blank"
               rel="noopener noreferrer"
               href={href}
@@ -23,11 +23,11 @@ export default function WorkCard({ img, company, title, highlights, href }) {
               {company}
             </a>
           ) : (
-            company
+            <span className="text-gray-500">{company}</span>
           )}
         </h4>
         <div className="text-gray-600 dark:text-gray-400">
-          <span className="font-thin">{title}</span>
+          <span className="font-light">{title}</span>
           <ul className="list-disc ml-0 pl-0">
             {highlights.map((highlight, idx) => (
               <li key={idx}>{highlight}</li>

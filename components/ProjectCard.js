@@ -13,7 +13,7 @@ export default function ProjectCard({ img, title, highlights, href }) {
         <h4 className="w-full text-lg font-medium text-gray-900 md:text-xl dark:text-gray-100">
           {href ? (
             <a
-              className="text-white hover:text-gray-500 transition no-underline cursor-pointer"
+              className="text-gray-500 hover:text-gray-600 transition no-underline cursor-pointer"
               target="_blank"
               rel="noopener noreferrer"
               href={href}
@@ -21,7 +21,7 @@ export default function ProjectCard({ img, title, highlights, href }) {
               {title}
             </a>
           ) : (
-            <>{title}</>
+            <span className="text-gray-500">{title}</span>
           )}
         </h4>
         <div className="text-gray-600 dark:text-gray-400">
