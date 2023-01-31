@@ -16,8 +16,8 @@ export default function Home({ posts }) {
           the internet.
         </h2>
         <h2 className="prose text-gray-600 dark:text-gray-400 mb-4">
-          I am interested in Distributed Systems, OS, Networks and all sorts of
-          things.
+          I am interested in Distributed Systems, Networks, Web development and
+          all sorts of things.
         </h2>
       </div>
 
